@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants Frost Guard Component Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e8f4f8;
+        }
+        .footprint {
+            font-family: monospace;
+            background-color: #ecf0f1;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+        .digi-link {
+            background-color: #e74c3c;
+            color: white;
+            padding: 4px 8px;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 12px;
+            display: inline-block;
+        }
+        .digi-link:hover {
+            background-color: #c0392b;
+        }
+        .reference {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .value {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .qty {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plants Frost Guard Component Table</h1>
+        <p><strong>Total Components:</strong> 28 unique parts</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Reference</th>
+                    <th>Qty</th>
+                    <th>Value</th>
+                    <th>THT Footprint (KiCad)</th>
+                    <th>Digi-Key Link</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="reference">C1,C3</td>
+                    <td class="qty">2</td>
+                    <td class="value">27pF</td>
+                    <td class="footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qr" class="digi-link">Search 27pF Ceramic</a></td>
+                    <td>Ceramic disc capacitor</td>
+                </tr>
+                <tr>
+                    <td class="reference">C2</td>
+                    <td class="qty">1</td>
+                    <td class="value">220µF</td>
+                    <td class="footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qs" class="digi-link">Search 220µF Electrolytic</a></td>
+                    <td>Electrolytic capacitor</td>
+                </tr>
+                <tr>
+                    <td class="reference">C4</td>
+                    <td class="qty">1</td>
+                    <td class="value">100nF</td>
+                    <td class="footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qt" class="digi-link">Search 100nF Ceramic</a></td>
+                    <td>Ceramic disc capacitor</td>
+                </tr>
+                <tr>
+                    <td class="reference">C5</td>
+                    <td class="qty">1</td>
+                    <td class="value">100µF</td>
+                    <td class="footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qw" class="digi-link">Search 100µF Electrolytic</a></td>
+                    <td>Electrolytic capacitor</td>
+                </tr>
+                <tr>
+                    <td class="reference">C6</td>
+                    <td class="qty">1</td>
+                    <td class="value">100µF</td>
+                    <td class="footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qw" class="digi-link">Search 100µF Electrolytic</a></td>
+                    <td>Electrolytic capacitor</td>
+                </tr>
+                <tr>
+                    <td class="reference">C7</td>
+                    <td class="qty">1</td>
+                    <td class="value">0.1µF</td>
+                    <td class="footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qt" class="digi-link">Search 0.1µF Ceramic</a></td>
+                    <td>Ceramic disc capacitor</td>
+                </tr>
+                <tr>
+                    <td class="reference">D1</td>
+                    <td class="qty">1</td>
+                    <td class="value">LED</td>
+                    <td class="footprint">LED_THT:LED_D5.0mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qz" class="digi-link">Search 5mm LED</a></td>
+                    <td>Standard 5mm LED</td>
+                </tr>
+                <tr>
+                    <td class="reference">D2</td>
+                    <td class="qty">1</td>
+                    <td class="value">1N4148</td>
+                    <td class="footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q1" class="digi-link">Search 1N4148</a></td>
+                    <td>Signal diode</td>
+                </tr>
+                <tr>
+                    <td class="reference">D3</td>
+                    <td class="qty">1</td>
+                    <td class="value">DBL103G</td>
+                    <td class="footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q2" class="digi-link">Search DBL103G</a></td>
+                    <td>Bridge rectifier</td>
+                </tr>
+                <tr>
+                    <td class="reference">DS1</td>
+                    <td class="qty">1</td>
+                    <td class="value">TDCG1060M</td>
+                    <td class="footprint">Display_7Segment:7SegmentLED_LTS6760_LTS6780</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q3" class="digi-link">Search TDCG1060M</a></td>
+                    <td>7-segment display</td>
+                </tr>
+                <tr>
+                    <td class="reference">J1</td>
+                    <td class="qty">1</td>
+                    <td class="value">Conn_01x03</td>
+                    <td class="footprint">Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q4" class="digi-link">Search 3-pin Socket</a></td>
+                    <td>3-pin socket connector</td>
+                </tr>
+                <tr>
+                    <td class="reference">J2,J3,J5,J6</td>
+                    <td class="qty">4</td>
+                    <td class="value">Conn_01x02_Socket</td>
+                    <td class="footprint">Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q5" class="digi-link">Search 2-pin Socket</a></td>
+                    <td>2-pin socket connector</td>
+                </tr>
+                <tr>
+                    <td class="reference">J9</td>
+                    <td class="qty">1</td>
+                    <td class="value">Display</td>
+                    <td class="footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q6" class="digi-link">Search 4-pin Socket</a></td>
+                    <td>Display socket connector</td>
+                </tr>
+                <tr>
+                    <td class="reference">K1</td>
+                    <td class="qty">1</td>
+                    <td class="value">RAYEX-L90A</td>
+                    <td class="footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q7" class="digi-link">Search RAYEX-L90A</a></td>
+                    <td>5V relay</td>
+                </tr>
+                <tr>
+                    <td class="reference">Q1,Q2</td>
+                    <td class="qty">2</td>
+                    <td class="value">BC558</td>
+                    <td class="footprint">Package_TO_SOT_THT:TO-92_Inline</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q8" class="digi-link">Search BC558</a></td>
+                    <td>PNP transistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R1</td>
+                    <td class="qty">1</td>
+                    <td class="value">6.8kΩ</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q9" class="digi-link">Search 6.8kΩ</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R2</td>
+                    <td class="qty">1</td>
+                    <td class="value">47Ω</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7q0" class="digi-link">Search 47Ω</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R3</td>
+                    <td class="qty">1</td>
+                    <td class="value">10kΩ</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qa" class="digi-link">Search 10kΩ</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R4</td>
+                    <td class="qty">1</td>
+                    <td class="value">4.7kΩ</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qb" class="digi-link">Search 4.7kΩ</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R5</td>
+                    <td class="qty">1</td>
+                    <td class="value">270Ω</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qc" class="digi-link">Search 270Ω</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R6</td>
+                    <td class="qty">1</td>
+                    <td class="value">820Ω</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qd" class="digi-link">Search 820Ω</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">R7,R8</td>
+                    <td class="qty">2</td>
+                    <td class="value">100Ω</td>
+                    <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qf" class="digi-link">Search 100Ω</a></td>
+                    <td>1/4W resistor</td>
+                </tr>
+                <tr>
+                    <td class="reference">SW1,SW2,SW3</td>
+                    <td class="qty">3</td>
+                    <td class="value">SW_Push</td>
+                    <td class="footprint">Button_Switch_THT:SW_PUSH_6mm</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qg" class="digi-link">Search Push Button</a></td>
+                    <td>6mm tactile switch</td>
+                </tr>
+                <tr>
+                    <td class="reference">U1</td>
+                    <td class="qty">1</td>
+                    <td class="value">ATtiny84V-10P</td>
+                    <td class="footprint">Package_DIP:DIP-14_W7.62mm_Socket</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qh" class="digi-link">Search ATtiny84V-10P</a></td>
+                    <td>Microcontroller + IC socket</td>
+                </tr>
+                <tr>
+                    <td class="reference">U2</td>
+                    <td class="qty">1</td>
+                    <td class="value">LM317L_TO92</td>
+                    <td class="footprint">Package_TO_SOT_THT:TO-92_Inline</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qj" class="digi-link">Search LM317L</a></td>
+                    <td>Voltage regulator</td>
+                </tr>
+                <tr>
+                    <td class="reference">U3</td>
+                    <td class="qty">1</td>
+                    <td class="value">TM1637</td>
+                    <td class="footprint">Package_DIP:DIP-20_W7.62mm_Socket</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qk" class="digi-link">Search TM1637</a></td>
+                    <td>LED driver IC + IC socket</td>
+                </tr>
+                <tr>
+                    <td class="reference">U4</td>
+                    <td class="qty">1</td>
+                    <td class="value">DS18S20</td>
+                    <td class="footprint">Package_TO_SOT_THT:TO-92_Inline</td>
+                    <td><a href="https://www.digikey.com/short/p4n7ql" class="digi-link">Search DS18S20</a></td>
+                    <td>Temperature sensor</td>
+                </tr>
+                <tr>
+                    <td class="reference">Y1</td>
+                    <td class="qty">1</td>
+                    <td class="value">Crystal</td>
+                    <td class="footprint">Crystal:Crystal_HC49-4H_Vertical</td>
+                    <td><a href="https://www.digikey.com/short/p4n7qm" class="digi-link">Search HC49 Crystal</a></td>
+                    <td>Quartz crystal</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="margin-top: 30px; padding: 15px; background-color: #ecf0f1; border-radius: 5px;">
+            <h3>Notes:</h3>
+            <ul>
+                <li>All footprints are standard KiCad THT (Through-Hole Technology) footprints</li>
+                <li>All connectors use sockets instead of headers for better flexibility</li>
+                <li>IC components (U1, U3) should use IC sockets for easy replacement and protection</li>
+                <li>Digi-Key links are search shortcuts - verify specifications before ordering</li>
+                <li>Capacitor values: µF = microfarad, nF = nanofarad, pF = picofarad</li>
+                <li>For electrolytic capacitors, choose appropriate voltage rating (typically 16V or higher)</li>
+                <li>Crystal frequency should match your circuit requirements (typically 8MHz or 16MHz for ATtiny84)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
